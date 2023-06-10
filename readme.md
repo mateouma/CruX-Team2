@@ -1,8 +1,8 @@
 # Vehicular Remote Online Ocular brain-Machine interface (VROOM)
 
-Project Lead: Mateo Umaguing
-Project Scientists: Avantika Aggarwal, Hanna Boughanem, Paige Lee, Sree Nagaraj, Srivarsha Rayasam, Anish Thalamati
-Mechanical Engineer: Audrey Ngai
+<b>Project Lead</b>: Mateo Umaguing<br>
+<b>Project Scientists:</b> Avantika Aggarwal, Hanna Boughanem, Paige Lee, Sree Nagaraj, Srivarsha Rayasam, Anish Thalamati<br>
+<b>Mechanical Engineer:</b> Audrey Ngai
 
 <i>Developed @ CruX UCLA, Neurotech Organization under guidance from Darren Vawter</i>
 

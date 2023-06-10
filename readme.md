@@ -21,8 +21,8 @@ Approach
 - The experiment will be divided into 3 parts: EEG setup, direction classifier training, and online remote car control.
 
 ![fig1]()
-Fig. 1 - Data Flow Diagram
-Schematic displaying the direction and destinations of data in this BCI.
+<p style="text-align: center;">Fig. 1 - Data Flow Diagram</p>
+<p style="text-align: center;">Schematic displaying the direction and destinations of data in this BCI.</p>
 
 EEG Setup
 - EEG is configured and fitted on a participant.

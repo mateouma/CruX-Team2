@@ -27,7 +27,7 @@ to real-world traffic scenarios, but modifications to adapt this toward traffic 
 <p style="text-align: center;"><b>Fig. 1 - Data Flow Diagram</b></p>
 <p style="text-align: center;"><i>Schematic displaying the direction and destinations of data in this BCI.</i></p>
 
-EEG Setup
+#### EEG Setup
 - EEG is configured and fitted on a participant.
 -  OpenBCI headset is placed on the participant.
 -  OpenBCI is connected to Cyton, which is connected to the computer.
@@ -55,7 +55,7 @@ EEG Setup
 <p style="text-align: center;"><i>Each button flickers at a different frequency and the bottom text indicates what the decoder is currently detecting.</i></p>
 
 
-### Direction Classifier Training/Calculation
+#### Direction Classifier Training/Calculation
 - The participant is directed to look at a GUI with car direction buttons, a decoded direction indicator, and a live video feed from the car.
 - Baseline signal values are recorded while the participant looks at the screen, but not the buttons. These will be signals in which button signals can be compared with to detect when to send commands.
 - Buttons will be flickering at 7 Hz, 9 Hz, 11 Hz, 13 Hz, 17 Hz. These values were selected according to past SSVEP-based experiments.
@@ -81,11 +81,11 @@ EEG Setup
 <p style="text-align: center;"><b>Fig. 6 - SSVEP Classification Schematic</b></p>
 <p style="text-align: center;"><i>Detailed flow of data and information from the LSL to the BT receiver on the RC car.</i></p>
 
-### Online Remote Car Control
+#### Online Remote Car Control
 - In another session, the participant is fitted with the EEG headset. The EEG signals are streamed directly to the now trained classifier.
 - The participant will look at a given flickering button, and in real-time the classifier will decode which button is being looked at.
 - The classifier will then send direction signals (one of LEFT, FWD, RIGHT, REV, STOP) corresponding to the decoded neural signals via Bluetooth to the car. The car will be constructed using Arduino hardware and receive signals through a HC-05 Bluetooth module.
-○ Once the user “presses” a button, the car will move in the indicated direction until the user focuses their attention onto the “STOP” button.
+-   Once the user “presses” a button, the car will move in the indicated direction until the user focuses their attention onto the “STOP” button.
 - The participant, periodically glancing at the car and its position, will attempt to navigate a maze.
 
 ### References

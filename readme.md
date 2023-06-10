@@ -1,6 +1,10 @@
-# Repository for CruX Team 2
+# Vehicular Remote Online Ocular brain-Machine interface (VROOM)
 
-This repository is where we will store all of our shared files, including project planning, literature reviews, code, and more.
+Project Lead: Mateo Umaguing
+Project Scientists: Avantika Aggarwal, Hanna Boughanem, Paige Lee, Sree Nagaraj, Srivarsha Rayasam, Anish Thalamati
+Mechanical Engineer: Audrey Ngai
+
+<i>Developed @ CruX UCLA, Neurotech Organization under guidance from Darren Vawter</i>
 
 ## Poster (Presented at the California Neurotechnology Conference 2023)
 ![poster](https://raw.githubusercontent.com/mateouma/CruX-Team2/main/Presentations/ca_neurotech_conference_poster.png)
